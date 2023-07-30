@@ -1,0 +1,38 @@
+a{
+    display: inline-block;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    /*borderを入れる*/
+    border: 3px solid red; 
+    padding: 30px;
+   /* margin: 100px; */
+}
+
+p{
+   /*  /*ボーダーのスタイル＊/*/
+
+    border-style: dashed solid dotted double;
+    border-width:3px 10px;
+    border-color: blue;
+    border-radius: 10px;
+    padding: 100px 30px 10px 5px;
+    background-color: azure;
+    max-width: 50px 100px;
+
+}
+h1{
+    border-top: 3px dashed green;
+    background-color: beige;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+a{
+    background-color: blueviolet;
+    text-align: center;
+}
+#a{
+    display: block;
+}
+div{
+    text-align: center;
+}

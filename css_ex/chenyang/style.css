@@ -1,0 +1,20 @@
+h1{
+    color: rgb(60, 25, 166);
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+}
+.aaa{
+    width: 200px;
+    border-radius: 5px;
+    border-color: blue;
+    border: 2px dashed blue;
+}
+#ddd{
+    width: 300px;
+    margin: 0 auto;
+}
+.ccc{
+    background-color: green;
+    width: 260px;
+}
