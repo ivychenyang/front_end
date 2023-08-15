@@ -1,0 +1,18 @@
+h1{
+  color: blue;
+  font-family:inherit;
+  font-style:inherit;
+}
+
+div{
+  width: 250px;
+  margin: 0 auto;
+}
+input{
+  text-align: left;
+  border-radius: 10px;
+
+}
+label{
+  
+}

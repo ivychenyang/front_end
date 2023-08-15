@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../css_ex/chenyang/login"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "js_ex"
+	}
+}

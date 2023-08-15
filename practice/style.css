@@ -1,0 +1,34 @@
+body{
+    background: url(bg.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.slime-container{
+    height:50vh;
+    margin-top: 10rem;
+    position:relative;
+}
+.slime-image{
+    width:500px;
+    height: 190px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+    animation: bound 1.3s infinite;
+
+}
+.slime-image img{
+    width: 100%;
+}
+@keyframes bound{
+    0%,
+    100%{
+        transform: scale(1);
+    }
+}
