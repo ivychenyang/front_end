@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" th:href="@{/css/blogView.css}">
+	<link rel="stylesheet" th:href="@{/css/blogLogin.css}">
+</head>
+
+<body>
+	<div id="container" style="text-align: center;">
+		<form action="" method="post">
+			<table align="center" style="width: 100%">
+				<p style="text-align:right">
+					<a th:href="@{/user/login}">ログアウト</a>
+				</p>
+				<tr>
+					<th align="right"><button class="button-cell" type="button"
+							onclick="location.href='/user/blog/register'">記事登録</button></th>
+
+				</tr>
+			</table>
+		</form>
+		<div class="blogView">
+			<p><img th:src="@{/img/sea.jpg}" width="300" alt=""></p>
+			<p>
+				<a>Sea</a>
+			</p>
+
+		</div>
+	</div>
+</body>
+
+</html>
